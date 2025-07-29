@@ -13,7 +13,8 @@ export const BeACatalyst: React.FC = () => {
     designation: '',
     email: '',
     phone: '',
-    cityState: '',
+    city: '',
+    state: '',
     supportTypes: [] as string[],
     engagementFormat: '',
     alignmentAreas: [] as string[],
@@ -82,7 +83,8 @@ export const BeACatalyst: React.FC = () => {
           designation: '',
           email: '',
           phone: '',
-          cityState: '',
+          city: '',
+          state: '',
           supportTypes: [],
           engagementFormat: '',
           alignmentAreas: [],
@@ -316,18 +318,34 @@ export const BeACatalyst: React.FC = () => {
                     </div>
 
                     <div>
-                      <label htmlFor="cityState" className="block text-sm font-semibold text-gray-700 mb-2">
-                        City & State *
+                      <label htmlFor="city" className="block text-sm font-semibold text-gray-700 mb-2">
+                        City *
                       </label>
                       <input
                         type="text"
-                        id="cityState"
-                        name="cityState"
+                        id="city"
+                        name="city"
                         required
-                        value={formData.cityState}
+                        value={formData.city}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300"
-                        placeholder="Mumbai, Maharashtra"
+                        placeholder="Mumbai"
+                      />
+                    </div>
+
+                    <div>
+                      <label htmlFor="state" className="block text-sm font-semibold text-gray-700 mb-2">
+                        State *
+                      </label>
+                      <input
+                        type="text"
+                        id="state"
+                        name="state"
+                        required
+                        value={formData.state}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300"
+                        placeholder="Maharashtra"
                       />
                     </div>
 

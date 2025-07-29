@@ -143,7 +143,7 @@ export const Footer: React.FC = () => {
             <div className="mb-6 text-center">
               <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-full border border-white/20">
                 <Heart size={16} className="text-orange-400" />
-                <span className="text-sm font-medium">An Initiative by FEMICA India</span>
+                <span className="text-sm font-medium">In collaboration with Femica India</span>
                 <Heart size={16} className="text-orange-400" />
               </div>
             </div>

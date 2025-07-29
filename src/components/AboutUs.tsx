@@ -221,7 +221,7 @@ export const AboutUs: React.FC = () => {
                 className="bg-gradient-to-r from-orange-600 to-red-600 text-white font-semibold py-4 px-6 rounded-xl hover:from-orange-700 hover:to-red-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
               >
                 <Zap size={20} />
-                Support Our Work
+                Be a Catalyst for Change
               </button>
             </div>
           </div>

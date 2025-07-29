@@ -20,7 +20,8 @@ export const BeAVolunteer: React.FC = () => {
     fullName: '',
     email: '',
     phone: '',
-    cityState: '',
+    city: '',
+    state: '',
     occupation: '',
     schoolCollege: '',
     openToResearch: false
@@ -63,7 +64,8 @@ export const BeAVolunteer: React.FC = () => {
           fullName: '',
           email: '',
           phone: '',
-          cityState: '',
+          city: '',
+          state: '',
           occupation: '',
           schoolCollege: '',
           openToResearch: false
@@ -305,22 +307,43 @@ export const BeAVolunteer: React.FC = () => {
                       />
                     </div>
 
-                    {/* City & State */}
+                    {/* City */}
                     <div>
                       <label
-                        htmlFor="cityState"
+                        htmlFor="city"
                         className="block text-sm font-semibold text-gray-700 mb-2"
                       >
-                        City & State
+                        City *
                       </label>
                       <input
                         type="text"
-                        id="cityState"
-                        name="cityState"
-                        value={formData.cityState}
+                        id="city"
+                        name="city"
+                        required
+                        value={formData.city}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300"
-                        placeholder="Mumbai, Maharashtra"
+                        placeholder="Mumbai"
+                      />
+                    </div>
+
+                    {/* State */}
+                    <div>
+                      <label
+                        htmlFor="state"
+                        className="block text-sm font-semibold text-gray-700 mb-2"
+                      >
+                        State *
+                      </label>
+                      <input
+                        type="text"
+                        id="state"
+                        name="state"
+                        required
+                        value={formData.state}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300"
+                        placeholder="Maharashtra"
                       />
                     </div>
 
