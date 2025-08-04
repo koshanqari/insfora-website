@@ -17,7 +17,7 @@ export const SurveyPopup: React.FC = () => {
     e.preventDefault();      // block any default navigation
     e.stopPropagation();     // block parent handlers
     window.open(
-      'https://www.surveymonkey.com/r/GKMXTYM',
+      'https://form.typeform.com/to/Pgfe4WnZ',
       '_blank',
       'noopener,noreferrer'
     );
@@ -31,7 +31,7 @@ export const SurveyPopup: React.FC = () => {
     e.preventDefault();
     e.stopPropagation();
     window.open(
-      'https://wa.me/919876543210?text=Hi%20INSFORA,%20I%20would%20like%20to%20fill%20the%20research%20survey%20later.',
+      'https://wame.pro/1j0cbr?text=Hi%20INSFORA,%20I%20would%20like%20to%20fill%20the%20research%20survey%20later.',
       '_blank',
       'noopener,noreferrer'
     );

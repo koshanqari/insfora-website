@@ -3,7 +3,7 @@ import { Mail, Instagram, Facebook, Copyright, Heart, MessageCircle } from 'luci
 
 export const Footer: React.FC = () => {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/919876543210', '_blank');
+    window.open('https://wame.pro/1j0cbr', '_blank');
   };
 
   const scrollToSection = (sectionId: string) => {

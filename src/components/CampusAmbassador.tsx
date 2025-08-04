@@ -291,37 +291,37 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
                           {
                             id: '1',
                             name: 'Delhi NCR Education Survey',
-                            activeDates: 'Jan 15 - Mar 30, 2024',
+                            activeDates: 'July 1 - Oct 31, 2025',
                             certificateTitle: 'Education Research Certificate',
-                            enrollmentCount: 150,
-                            summary: 'Survey students and teachers across Delhi NCR to understand educational challenges and opportunities.',
+                            enrollmentCount: 170,
+                            summary: 'Students and teachers across Delhi NCR share daily classroom routines, school climate, academic challenges and aspirations. The survey gives school leaders direct feedback for meaningful improvements across the region.',
                             status: 'ongoing'
                           },
                           {
                             id: '2',
                             name: 'Digital Literacy Initiative',
-                            activeDates: 'Feb 1 - Apr 15, 2024',
+                            activeDates: 'Jan 1 - Apr 30, 2025',
                             certificateTitle: 'Digital Education Certificate',
-                            enrollmentCount: 120,
-                            summary: 'Help students develop digital skills and promote online learning resources.',
+                            enrollmentCount: 210,
+                            summary: 'Young volunteers help classmates set up learning apps, manage online assignments, troubleshoot device issues, and build peer confidence, all while enhancing their own understanding of digital tools in real school settings.',
                             status: 'upcoming'
                           },
                           {
                             id: '3',
                             name: 'Mental Health Awareness',
-                            activeDates: 'Mar 1 - May 30, 2024',
+                            activeDates: 'July 15 - Oct 15, 2024',
                             certificateTitle: 'Student Wellness Certificate',
                             enrollmentCount: 200,
-                            summary: 'Create awareness about mental health and well-being among students.',
-                            status: 'upcoming'
+                            summary: 'Students lead honest conversations with peers about stress, emotional challenges, anxiety, or isolation. They learn to organise group support sessions, listen carefully, and address issues with empathy and personal insight.',
+                            status: 'ended'
                           },
                           {
                             id: '4',
                             name: 'Environmental Education',
-                            activeDates: 'Dec 1 - Feb 28, 2023',
-                            certificateTitle: 'Environmental Leadership Certificate',
+                            activeDates: 'Jan 1 - Apr 30, 2024',
+                            certificateTitle: 'Environmental Certificate',
                             enrollmentCount: 180,
-                            summary: 'Promote environmental awareness and sustainable practices in schools.',
+                            summary: 'Participants coordinate school cleanups, establish compost areas, promote waste separation, plant native trees, and lead simple nature sessions to raise awareness and practical responsibility among their friends and teachers.',
                             status: 'ended'
                           }
                         ].map((project, index) => (
@@ -374,7 +374,7 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
                                 </div>
 
                                 {/* Project Name */}
-                                <h3 className="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors line-clamp-2">
+                                <h3 className="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors">
                                   {project.name}
                                 </h3>
 
@@ -395,7 +395,7 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
                                 </div>
 
                                 {/* Summary */}
-                                <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow line-clamp-3">
+                                <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow">
                                   {project.summary}
                                 </p>
 
@@ -874,43 +874,51 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
               const testimonials = [
                 {
                   image: '/tes1.jpg',
-                  quote: '"The Environmental Education program taught me leadership skills and environmental awareness."',
-                  name: 'Arjun, Maharashtra, India',
+                  quote: '"Through the digital program, I hosted a group tutorial on online tools and helped classmates stay on top of assignments."',
+                  name: 'Aarav Sharma',
+                  location: 'Jaipur, India',
                 },
                 {
                   image: '/tes2.jpg',
-                  quote: '"Digital Literacy Initiative helped me develop tech skills and confidence."',
-                  name: 'Liam, New South Wales, Australia',
+                  quote: '“I joined the environmental education initiative, led a school cleanup drive, and learned how to organise group work.”',
+                  name: 'Jakub Kowalski',
+                  location: 'Kraków, Poland',
                 },
                 {
                   image: '/tes3.jpg',
-                  quote: '"Mental Health Awareness program made me a better listener and supporter."',
-                  name: 'Priya, Delhi, India',
+                  quote: '“After joining Insfora’s ambassador program, I led surveys at my school and gained real teamwork and planning skills.”',
+                  name: 'Priya',
+                  location: 'Delhi, India',
                 },
                 {
                   image: '/tes4.jpg',
-                  quote: '"The survey program gave me research experience and public speaking skills."',
-                  name: 'Emma, Ontario, Canada',
+                  quote: '"I wasn’t sure how to talk about stress with friends so I joined the mental health awareness initiative and learned to listen and support them."',
+                  name: 'Rowan Stewart',
+                  location: 'Edinburgh, Scotland',
                 },
                 {
                   image: '/tes5.jpg',
-                  quote: '"INSFORA helped me organize community events and build lasting friendships."',
-                  name: 'Aisha, Nairobi, Kenya',
+                  quote: '“Joining the environmental education initiative made me plan a recycling drive at school and improve my project management skills.”',
+                  name: 'Wambui',
+                  location: 'Nairobi, Kenya',
                 },
                 {
                   image: '/tes6.jpg',
-                  quote: '"The ambassador program improved my communication and project management skills."',
-                  name: 'Noah, Victoria, Australia',
+                  quote: '“After joining the digital literacy program, I was able to help peers install educational apps and learned to troubleshoot problems myself.”',
+                  name: 'Matej Dvorak',
+                  location: 'Prague, Czech Republic',
                 },
                 {
                   image: '/tes7.jpg',
-                  quote: '"I learned to conduct surveys and present findings professionally."',
-                  name: 'Rahul, Karnataka, India',
+                  quote: '“Surveying classmates and explaining findings to teachers made me more confident speaking publicly.”',
+                  name: 'Rahul Gupta',
+                  location: 'Mumbai, India',
                 },
                 {
                   image: '/tes8.jpg',
-                  quote: '"The program taught me how to advocate for educational improvements."',
-                  name: 'Ethan, British Columbia, Canada',
+                  quote: '“Participating in the Insfora mental health program helped me organise wellness check‑ins and gain active listening and empathy skills.”',
+                  name: 'Andrew Miller',
+                  location: 'Vancouver, Canada',
                 },
               ];
               // Responsive: show 1 card on mobile, 2 on md, 3 on lg+
@@ -967,7 +975,10 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
                             className="w-16 h-16 rounded-full object-cover mb-4 border-4 border-white shadow"
                           />
                           <p className="text-gray-700 italic mb-2 text-center">{t.quote}</p>
-                          <span className="text-gray-900 font-semibold">{t.name}</span>
+                          <div className="text-center">
+                            <div className="text-gray-900 font-semibold">{t.name}</div>
+                            <div className="text-gray-600 text-sm">{t.location}</div>
+                          </div>
                         </div>
                       ))}
                     </div>

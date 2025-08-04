@@ -146,48 +146,7 @@ export const AboutUs: React.FC = () => {
           </div>
         </div>
 
-        {/* Our Roots Section */}
-        <div className="mb-24">
-          <ScrollReveal direction="scale">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 text-center">
-              Our Roots: Powered by 
-              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-                {' '}Femica India
-              </span>
-            </h2>
-          </ScrollReveal>
 
-          <div className="space-y-8">
-            <ScrollReveal delay={200} direction="left">
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/50">
-                <p className="text-xl text-gray-700 leading-relaxed">
-                  INSFORA began as a youth-driven extension of Femica India's commitment to social equity and community participation. What started as an internal research initiative under Femica has now evolved into a standalone platform — one that empowers young changemakers to lead, collaborate, and act.
-                </p>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal delay={400} direction="right">
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/50">
-                <p className="text-xl text-gray-700 leading-relaxed">
-                  From offering strategic support to mentoring our founding team, Femica continues to anchor INSFORA's journey as an incubator and guiding force.
-                </p>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal delay={600} direction="scale">
-              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-3xl p-8 shadow-2xl text-center">
-                <div className="space-y-4">
-                  <p className="text-2xl font-bold text-white">
-                    INSFORA may be led by youth, but it stands on the shoulders of Femica's experience.
-                  </p>
-                  <p className="text-xl text-orange-100">
-                    INSFORA is one of Femica's flagship initiatives — built by students, scaled by community, and driven by purpose.
-                  </p>
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
-        </div>
 
         {/* How You Can Join Us Section */}
         <ScrollReveal direction="scale">
