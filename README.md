@@ -2,7 +2,7 @@
 
 A youth-led nonprofit organization committed to inspiring, supporting, and empowering underprivileged children through education, awareness, and research.
 
-## 🌟 About INSFORA
+## About INSFORA
 
 INSFORA is a movement that brings together young minds who act with empathy and purpose — turning intention into impact, and compassion into change. We believe that education should never be a luxury and work to create a better tomorrow through our three core pillars:
 
@@ -10,7 +10,7 @@ INSFORA is a movement that brings together young minds who act with empathy and 
 - **Support** - We show up for children emotionally and academically — like a peer, not a superior  
 - **Empower** - We help them think, speak, and dream on their own terms
 
-## 🚀 Features
+## Features
 
 - **Modern Web Interface** - Built with React, TypeScript, and Tailwind CSS
 - **Interactive Components** - Scroll-reveal animations and engaging user experience
@@ -19,7 +19,7 @@ INSFORA is a movement that brings together young minds who act with empathy and 
 - **Campus Ambassador Program** - Dedicated section for campus ambassador applications
 - **Multi-page Navigation** - Clean routing with React Router
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS, PostCSS
@@ -28,7 +28,7 @@ INSFORA is a movement that brings together young minds who act with empathy and 
 - **Deployment**: Express.js server
 - **Development**: ESLint, TypeScript ESLint
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -63,7 +63,7 @@ INSFORA is a movement that brings together young minds who act with empathy and 
    npm run serve
    ```
 
-## 🎯 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -71,7 +71,7 @@ INSFORA is a movement that brings together young minds who act with empathy and 
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -101,12 +101,12 @@ src/
 └── index.css           # Global styles
 ```
 
-## 🌐 Pages & Routes
+## Pages & Routes
 
 - `/` - Main landing page with all sections
 - `/campus_ambassador` - Campus Ambassador Program application
 
-## 🎨 Design Features
+## Design Features
 
 - **Interactive Animations** - Scroll-triggered reveals and smooth transitions
 - **Gradient Backgrounds** - Modern gradient designs throughout
@@ -114,7 +114,7 @@ src/
 - **Accessibility** - Semantic HTML and keyboard navigation
 - **Performance** - Optimized images and lazy loading
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! If you'd like to contribute:
 
@@ -124,7 +124,7 @@ We welcome contributions from the community! If you'd like to contribute:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📞 Contact & Support
+## Contact & Support
 
 For questions, suggestions, or to get involved with INSFORA:
 
@@ -132,11 +132,8 @@ For questions, suggestions, or to get involved with INSFORA:
 - Email: [contact@insfora.org](mailto:contact@insfora.org)
 - Follow us on social media
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - All volunteers and supporters who make INSFORA possible
 - The open-source community for the amazing tools and libraries
@@ -144,4 +141,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Together for Change. Together for Direction.** 🌟
+**Together for Change. Together for Direction.**
