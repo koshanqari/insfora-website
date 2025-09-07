@@ -16,8 +16,10 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
     state: '',
     school: '',
     class: '',
+    counsellor: '',
     consent: true,
   });
+
   const [errors, setErrors] = useState<any>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -84,6 +86,7 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
           state: '',
           school: '',
           class: '',
+          counsellor: '',
           consent: true,
         });
       } else {
@@ -527,21 +530,23 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
                       </div>
                     </div>
 
-                    {/* School and Class */}
+                    {/* School */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">School/College Name *</label>
+                      <input
+                        type="text"
+                        name="school"
+                        value={formData.school}
+                        onChange={handleChange}
+                        required
+                        className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 ${errors.school ? 'border-red-500' : 'border-gray-300'}`}
+                        placeholder="Enter your school/college name"
+                      />
+                      {errors.school && <p className="text-red-500 text-xs mt-1">{errors.school}</p>}
+                    </div>
+
+                    {/* Class and Insfora Counsellor */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="md:col-span-2">
-                        <label className="block text-sm font-semibold text-gray-700 mb-2">School/College Name *</label>
-                        <input
-                          type="text"
-                          name="school"
-                          value={formData.school}
-                          onChange={handleChange}
-                          required
-                          className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 ${errors.school ? 'border-red-500' : 'border-gray-300'}`}
-                          placeholder="Enter your school/college name"
-                        />
-                        {errors.school && <p className="text-red-500 text-xs mt-1">{errors.school}</p>}
-                      </div>
                       <div>
                         <label className="block text-sm font-semibold text-gray-700 mb-2">Class *</label>
                         <div className="relative">
@@ -564,6 +569,18 @@ export const CampusAmbassador: React.FC<{ onBack?: () => void }> = ({ onBack }) 
                           </select>
                         </div>
                         {errors.class && <p className="text-red-500 text-xs mt-1">{errors.class}</p>}
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-gray-700 mb-2">Insfora Counsellor</label>
+                        <input
+                          type="text"
+                          name="counsellor"
+                          value={formData.counsellor}
+                          onChange={handleChange}
+                          className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 ${errors.counsellor ? 'border-red-500' : 'border-gray-300'}`}
+                          placeholder="(Optional)"
+                        />
+                        {errors.counsellor && <p className="text-red-500 text-xs mt-1">{errors.counsellor}</p>}
                       </div>
                     </div>
 

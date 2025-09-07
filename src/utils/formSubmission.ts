@@ -120,6 +120,7 @@ export const submitCampusAmbassadorForm = (f: {
   state: string;
   school: string;
   class: string;
+  counsellor: string;
   consent: boolean;
 }) => {
   return insertIntoSupabase('campus_ambassador', {
@@ -130,6 +131,7 @@ export const submitCampusAmbassadorForm = (f: {
     state: f.state,
     school: f.school,
     class: f.class,
+    insfora_counsellor: f.counsellor,
     consent: f.consent
   });
 };
